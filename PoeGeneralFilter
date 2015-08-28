@@ -13,7 +13,7 @@
 Show
  BaseType "Mirror of Kalandra" "Eternal Orb" "Exalted Orb" "Albino Rhoa Feather"
  PlayAlertSound 5 250
- SetTextColor 163 9 221
+ SetTextColor 128 0 128
  SetBackgroundColor 255 0 0 200
  SetBorderColor 0 0 0 255
 
@@ -22,7 +22,7 @@ Show
 
 "Orb of Alchemy"
  PlayAlertSound 2 150
- SetTextColor 0 150 255
+ SetTextColor 220 12 220
  SetBackgroundColor 0 0 0 200
  SetBorderColor 0 0 0 150
 
