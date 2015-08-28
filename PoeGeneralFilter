@@ -47,16 +47,16 @@ Show
  SetBorderColor 0 0 0 150
 
 Show
-  LinkedSockets = 6
- PlayAlertSound 3 150
- SetTextColor 55 255 55
+ LinkedSockets = 6
+ PlayAlertSound 5 150
+ SetTextColor 255 0 0
  SetBackgroundColor 0 0 0 200
  SetBorderColor 0 0 0 150
 
 Show
  LinkedSockets = 5
- PlayAlertSound 3 150
- SetTextColor 55 255 55
+ PlayAlertSound 5 150
+ SetTextColor 255 0 0
  SetBackgroundColor 0 0 0 200
  SetBackgroundColor 0 0 0 150 
 
