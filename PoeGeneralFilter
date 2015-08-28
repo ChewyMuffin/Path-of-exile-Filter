@@ -1,9 +1,7 @@
-#This is s simple filter that filters mostly invaluable items dropped in Path of Exile. Additionally, it #also improves the visual 
-
-appearances and alert sounds on important items.
+#This is s simple filter that filters mostly invaluable items dropped in Path of Exile.
+#Additionally, it also improves the visual appearances and alert sounds on important items.
 #Normal rarity items will be seen only if the items are one-handed weapons or shields with 3 sockets #linked, or 4 or more sockets 
-
-linked.
+#linked.
 #Magic rarity items will be seen when its quality is above 10%
 #All rare items will be seen as usual.
 #All unique items will be seen with enhanced sound effects.
