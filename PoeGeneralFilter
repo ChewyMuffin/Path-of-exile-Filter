@@ -1,0 +1,197 @@
+#This is s simple filter that filters mostly invaluable items dropped in Path of Exile. Additionally, it #also improves the visual 
+
+appearances and alert sounds on important items.
+#Normal rarity items will be seen only if the items are one-handed weapons or shields with 3 sockets #linked, or 4 or more sockets 
+
+linked.
+#Magic rarity items will be seen when its quality is above 10%
+#All rare items will be seen as usual.
+#All unique items will be seen with enhanced sound effects.
+#Rare currencies now have colored texts. 
+#All items have borders.
+
+# Currency
+
+Show
+ BaseType "Mirror of Kalandra" "Eternal Orb" "Exalted Orb" "Albino Rhoa Feather"
+ PlayAlertSound 5 250
+ SetTextColor 163 9 221
+ SetBackgroundColor 255 0 0 200
+ SetBorderColor 0 0 0 255
+
+Show 
+ BaseType "Divine Orb" "Chaos Orb" "Regal Orb" "Vaal Orb" "Gemcutter's Prism" "Orb of Regret" "Orb of Scouring" "Orb of Fusing" 
+
+"Orb of Alchemy"
+ PlayAlertSound 2 150
+ SetTextColor 0 150 255
+ SetBackgroundColor 0 0 0 200
+ SetBorderColor 0 0 0 150
+
+Show
+ BaseType "Blessed Orb" "Jeweller's Orb" "Orb of Chance" "Chromatic Orb" "Cartographer's Chisel" "Orb of Alteration" "Orb of 
+
+Transmutation" "Orb of Augmentation" "Blacksmith's Whetstone" "Armourer's Scrap" "Glassblower's Bauble"
+ SetTextColor 0 150 255
+ SetBackgroundColor 0 0 0 200
+ SetBorderColor 0 0 0 150
+
+Show
+ BaseType "Scroll of Wisdom" "Portal Scroll"
+ SetBackgroundColor 0 0 0 200
+ SetBorderColor 0 0 0 150
+
+# Gears 
+
+Show
+ Rarity = Unique
+ PlayAlertSound 4 150
+ SetBackgroundColor 0 0 0 200
+ SetBorderColor 0 0 0 150
+
+Show
+  LinkedSockets = 6
+ PlayAlertSound 3 150
+ SetTextColor 55 255 55
+ SetBackgroundColor 0 0 0 200
+ SetBorderColor 0 0 0 150
+
+Show
+ LinkedSockets = 5
+ PlayAlertSound 3 150
+ SetTextColor 55 255 55
+ SetBackgroundColor 0 0 0 200
+ SetBackgroundColor 0 0 0 150 
+
+Show
+ Sockets = 6
+ PlayAlertSound 3 150
+ SetTextColor 55 255 55
+ SetBackgroundColor 0 0 0 200
+ SetBorderColor  0 0 0 150
+
+Show
+ SocketGroup RGB
+ PlayAlertSound 3 150
+ SetTextColor 55 255 55
+ SetBackgroundColor 0 0 0 200
+ SetBorderColor 0 0 0 150
+
+Show
+ Rarity = Rare
+ SetTextColor 255 255 119
+ SetBackgroundColor 0 0 0 200
+ SetBorderColor 0 0 0 150 
+
+Show
+ Rarity = Magic
+ Quality >= 10
+ SetTextColor 136 136 255
+ SetBackgroundColor 0 0 0 200
+ SetBorderColor 0 0 0 150
+
+Show 
+ Rarity = Normal
+ LinkedSockets = 4
+ SetBackgroundColor 0 0 0 200
+ SetBorderColor 0 0 0 150
+
+Show
+ Class "One" "Shields"
+ Rarity = Normal
+ LinkedSockets = 3
+ SetBackgroundColor 0 0 0 200
+ SetBorderColor 0 0 0 150
+
+# Gems
+
+Show
+ Class Gem
+ SetBackgroundColor 0 0 0 200
+ SetBorderColor 0 0 0 150
+ 
+# Maps
+
+Show
+ Class Map
+
+Show
+ Class Map
+ Rarity = Unique
+ PlayAlertSound 4 150
+ 
+#  Flasks
+ 
+Show
+ Class "Life Flask" "Mana Flask" "Hybrid Flask"
+ Rarity >= Normal
+ SetTextColor 255 255 255
+ SetBackgroundColor 131 234 28 200
+ SetBorderColor 0 0 0 150 
+
+Show
+ BaseType "Diamond Flask" "Granite Flask" "Topaz Flask" "Sapphire Flask" "Ruby Flask" "Quicksilver Flask"
+ Rarity >= Normal
+ SetTextColor 255 255 255
+ SetBackgroundColor 29 233 227 150
+ SetBorderColor 0 0 0 150
+
+# Assessories
+
+Show
+ Class Rings Amulets Belts
+ PlayAlertSound 4 150
+ Rarity = Unique
+ SetBackgroundColor 0 0 0 200
+ SetBorderColor 0 0 0 150
+ 
+Show
+ Class Rings Amulets Belts
+ Rarity >= Normal
+ SetBackgroundColor 0 0 0 200
+ SetBorderColor 0 0 0 150
+
+Show
+ Class Rings Amulets Belts
+ BaseType "Iron" "Diamond" "Two-Stone" "Gavel"
+ Rarity >= Normal
+ SetTextColor 0 128 192
+ SetBackgroundColor 0 0 0 200
+ SetBorderColor 0 0 0 150
+
+# Misc Items
+
+Show
+ Class "Map Fragment"      
+ 
+Show
+ Class "Utility Flask"
+ 
+Show
+ Class "Microtransactions"  
+ 
+Show
+ Class "Hideout Doodads"    
+ 
+Show
+ Class Quest
+
+Show
+ Class Card
+ SetTextColor 255 255 255
+ SetBackgroundColor 126 135 133 200
+ SetBorderColor 0 0 0 150
+
+Show
+ Class Jewel
+ SetBackgroundColor 0 0 0 200
+ SetBorderColor 0 0 0 150
+
+Show
+ Class Jewel
+ Rarity = Unique
+ PlayAlertSound 4 150
+ SetBackgroundColor  0 0 0 200
+ SetBorderColor 0 0 0 150
+
+Hide
