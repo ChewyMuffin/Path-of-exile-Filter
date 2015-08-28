@@ -18,18 +18,14 @@ Show
  SetBorderColor 0 0 0 255
 
 Show 
- BaseType "Divine Orb" "Chaos Orb" "Regal Orb" "Vaal Orb" "Gemcutter's Prism" "Orb of Regret" "Orb of Scouring" "Orb of Fusing" 
-
-"Orb of Alchemy"
+ BaseType "Divine Orb" "Chaos Orb" "Regal Orb" "Vaal Orb" "Gemcutter's Prism" "Orb of Regret" "Orb of Scouring" "Orb of Fusing" "Orb of Alchemy"
  PlayAlertSound 2 150
  SetTextColor 220 12 220
  SetBackgroundColor 0 0 0 200
  SetBorderColor 0 0 0 150
 
 Show
- BaseType "Blessed Orb" "Jeweller's Orb" "Orb of Chance" "Chromatic Orb" "Cartographer's Chisel" "Orb of Alteration" "Orb of 
-
-Transmutation" "Orb of Augmentation" "Blacksmith's Whetstone" "Armourer's Scrap" "Glassblower's Bauble"
+ BaseType "Blessed Orb" "Jeweller's Orb" "Orb of Chance" "Chromatic Orb" "Cartographer's Chisel" "Orb of Alteration" "Orb of Transmutation" "Orb of Augmentation" "Blacksmith's Whetstone" "Armourer's Scrap" "Glassblower's Bauble"
  SetTextColor 0 150 255
  SetBackgroundColor 0 0 0 200
  SetBorderColor 0 0 0 150
