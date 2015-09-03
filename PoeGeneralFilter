@@ -58,7 +58,8 @@ Show
  PlayAlertSound 5 150
  SetTextColor 255 0 0
  SetBackgroundColor 0 0 0 200
- SetBackgroundColor 0 0 0 150 
+ SetBackgroundColor 0 0 0 150
+ SetBorderColor 0 0 0 150
 
 Show
  Sockets = 6
