@@ -83,7 +83,7 @@ Show
 
 Show
  Rarity = Magic
- Quality >= 10
+ LinkedSockets = 4
  SetTextColor 136 136 255
  SetBackgroundColor 0 0 0 200
  SetBorderColor 0 0 0 150
